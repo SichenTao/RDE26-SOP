@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+build/
+outputs/
+*.so
+*.dylib
+*.dll
+*.o
+*.out
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
