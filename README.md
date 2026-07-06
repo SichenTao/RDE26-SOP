@@ -29,6 +29,15 @@ This repository provides the final open-source algorithm package for the bound-c
 - 📦 Clean final algorithm package with a track-specific `main.py` entry.
 - 🔬 Part of the RDE26 series that won all four CEC 2026 numerical optimization tracks.
 
+## 🧭 RDE26 Series Navigation
+
+| Track | Repository |
+| --- | --- |
+| Competition 1-BC-SOPs | [RDE26-SOP](https://github.com/SichenTao/RDE26-SOP) |
+| Competition 2-CSOPs | [RDE26-CSOP](https://github.com/SichenTao/RDE26-CSOP) |
+| Competition 3-BC-MOPs | [RDE26-MOP](https://github.com/SichenTao/RDE26-MOP) |
+| Competition 4-CMOPs | [RDE26-CMOP](https://github.com/SichenTao/RDE26-CMOP) |
+
 ## Team
 
 Sichen Tao, Hanyu Hu, Ruihan Zhao, Qingke Zhang, Yifei Yang, Jian Wang, Masatoshi Kawai, and Hiroyuki Takizawa.
