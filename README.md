@@ -31,12 +31,12 @@ This repository provides the final open-source algorithm package for the bound-c
 
 ## 🧭 RDE26 Series Navigation
 
-| Track | Repository |
-| --- | --- |
-| Competition 1-BC-SOPs | [RDE26-SOP](https://github.com/SichenTao/RDE26-SOP) |
-| Competition 2-CSOPs | [RDE26-CSOP](https://github.com/SichenTao/RDE26-CSOP) |
-| Competition 3-BC-MOPs | [RDE26-MOP](https://github.com/SichenTao/RDE26-MOP) |
-| Competition 4-CMOPs | [RDE26-CMOP](https://github.com/SichenTao/RDE26-CMOP) |
+| Result | Track | Repository |
+| --- | --- | --- |
+| 🏆 Champion / Rank 1 (sum/RS: 277418/75) | Competition 1-BC-SOPs | [RDE26-SOP](https://github.com/SichenTao/RDE26-SOP) |
+| 🏆 Champion / Rank 1 (sum/RS: 192754/55) | Competition 2-CSOPs | [RDE26-CSOP](https://github.com/SichenTao/RDE26-CSOP) |
+| 🏆 Champion / Rank 1 (sum/RS: 87261.5/16) | Competition 3-BC-MOPs | [RDE26-MOP](https://github.com/SichenTao/RDE26-MOP) |
+| 🏆 Champion / Rank 1 (sum/RS: 188840/38) | Competition 4-CMOPs | [RDE26-CMOP](https://github.com/SichenTao/RDE26-CMOP) |
 
 ## Team
 
@@ -66,12 +66,72 @@ python3 code/rde26-sop/main.py
 
 Generated outputs are written under `code/rde26-sop/outputs/`.
 
-## RDEx Research Line
+## 🔗 RDEx 2025 Research Line
 
-RDE26-SOP continues the RDEx research line from the CEC 2025 competition series to the 2026 accuracy-and-speed competition setting.
+The RDE26 series continues the RDEx research line from the CEC 2025 numerical optimization competition series to the 2026 accuracy-and-speed competition setting.
 
-- RDEx-SOP 2025: [arXiv:2603.27089](https://arxiv.org/abs/2603.27089)
-- RDEx competition repository: [IEEE-CEC-2025-Competition-RDEx](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx)
+### RDEx 2025 Navigation
+
+| Result | Track | Repository | Paper |
+| --- | --- | --- | --- |
+| 🥇 Rank 1 U-score (total: 81229.5) | CEC 2025 BC-SOPs | [RDEx_SOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx/tree/main/RDEx_SOP) | [arXiv:2603.27089](https://arxiv.org/abs/2603.27089) |
+| 🥇 Rank 1 U-score (total: 53680.5) | CEC 2025 BC-CSOPs | [RDEx_CSOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx/tree/main/RDEx_CSOP) | [arXiv:2603.27090](https://arxiv.org/abs/2603.27090) |
+| 🥇 Rank 1 U-score (total: 36343.5) | CEC 2025 BC-MOPs | [RDEx_MOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx/tree/main/RDEx_MOP) | [arXiv:2603.27092](https://arxiv.org/abs/2603.27092) |
+| 🥇 Rank 1 U-score (total: 58456.0) | CEC 2025 BC-CMOPs | [RDEx_CMOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx/tree/main/RDEx_CMOP) | [arXiv:2604.03708](https://arxiv.org/abs/2604.03708) |
+
+### RDEx 2025 Paper Citations
+
+1. Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao, "RDEx-SOP: Exploitation-Biased Reconstructed Differential Evolution for Fixed-Budget Bound-Constrained Single-Objective Optimization," arXiv:2603.27089, 2026. DOI: [10.48550/arXiv.2603.27089](https://doi.org/10.48550/arXiv.2603.27089).
+2. Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao, "RDEx-CSOP: Feasibility-Aware Reconstructed Differential Evolution with Adaptive epsilon-Constraint Ranking," arXiv:2603.27090, 2026. DOI: [10.48550/arXiv.2603.27090](https://doi.org/10.48550/arXiv.2603.27090).
+3. Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao, "RDEx-MOP: Indicator-Guided Reconstructed Differential Evolution for Fixed-Budget Multiobjective Optimization," arXiv:2603.27092, 2026. DOI: [10.48550/arXiv.2603.27092](https://doi.org/10.48550/arXiv.2603.27092).
+4. Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao, "RDEx-CMOP: Feasibility-Aware Indicator-Guided Differential Evolution for Fixed-Budget Constrained Multiobjective Optimization," arXiv:2604.03708, 2026. DOI: [10.48550/arXiv.2604.03708](https://doi.org/10.48550/arXiv.2604.03708).
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@misc{tao2026rdexsop,
+  title = {RDEx-SOP: Exploitation-Biased Reconstructed Differential Evolution for Fixed-Budget Bound-Constrained Single-Objective Optimization},
+  author = {Tao, Sichen and Yang, Yifei and Zhao, Ruihan and Wang, Kaiyu and Liu, Sicheng and Gao, Shangce},
+  year = {2026},
+  eprint = {2603.27089},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.NE},
+  doi = {10.48550/arXiv.2603.27089}
+}
+
+@misc{tao2026rdexcsop,
+  title = {RDEx-CSOP: Feasibility-Aware Reconstructed Differential Evolution with Adaptive epsilon-Constraint Ranking},
+  author = {Tao, Sichen and Yang, Yifei and Zhao, Ruihan and Wang, Kaiyu and Liu, Sicheng and Gao, Shangce},
+  year = {2026},
+  eprint = {2603.27090},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.NE},
+  doi = {10.48550/arXiv.2603.27090}
+}
+
+@misc{tao2026rdexmop,
+  title = {RDEx-MOP: Indicator-Guided Reconstructed Differential Evolution for Fixed-Budget Multiobjective Optimization},
+  author = {Tao, Sichen and Yang, Yifei and Zhao, Ruihan and Wang, Kaiyu and Liu, Sicheng and Gao, Shangce},
+  year = {2026},
+  eprint = {2603.27092},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.NE},
+  doi = {10.48550/arXiv.2603.27092}
+}
+
+@misc{tao2026rdexcmop,
+  title = {RDEx-CMOP: Feasibility-Aware Indicator-Guided Differential Evolution for Fixed-Budget Constrained Multiobjective Optimization},
+  author = {Tao, Sichen and Yang, Yifei and Zhao, Ruihan and Wang, Kaiyu and Liu, Sicheng and Gao, Shangce},
+  year = {2026},
+  eprint = {2604.03708},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.NE},
+  doi = {10.48550/arXiv.2604.03708}
+}
+```
+
+</details>
 
 ## Citation
 
