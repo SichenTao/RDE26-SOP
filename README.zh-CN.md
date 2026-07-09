@@ -6,92 +6,92 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%2B%20Python-lightgrey)
 
 <p align="center">
-  <strong>English</strong> |
-  <a href="README.zh-CN.md">中文</a> |
+  <a href="README.md">English</a> |
+  <strong>中文</strong> |
   <a href="README.ja.md">日本語</a>
 </p>
 
-**RDE26-SOP is the official Champion and Rank 1 winner of Competition 1-BC-SOPs in the IEEE WCCI 2026 / IEEE CEC 2026 Competition on Numerical Optimization Considering Accuracy and Speed.**
+**RDE26-SOP 是 IEEE WCCI 2026 / IEEE CEC 2026 数值优化精度与速度竞赛 Competition 1-BC-SOPs 赛道的官方冠军和第 1 名算法。**
 
-This repository provides the final open-source algorithm package for the bound-constrained single-objective optimization track.
+本仓库提供有界约束单目标优化赛道的最终开源算法包。
 
-## 🏆 Champion Result
+## 🏆 冠军结果
 
-| Item | Description |
+| 项目 | 说明 |
 | --- | --- |
-| Achievement | Champion / Rank 1 |
-| Competition | IEEE WCCI 2026 / IEEE CEC 2026 Competition on Numerical Optimization Considering Accuracy and Speed |
-| Track | Competition 1-BC-SOPs |
-| Problem class | Bound-constrained single-objective optimization |
-| Benchmark | 29 CEC 2017 real-parameter numerical optimization problems |
-| Runs | 25 independent runs per problem |
-| Budget | 10000 x D function evaluations |
-| Official source | [P-N-Suganthan/2026-CEC](https://github.com/P-N-Suganthan/2026-CEC) |
+| 成绩 | 冠军 / 第 1 名 |
+| 竞赛 | IEEE WCCI 2026 / IEEE CEC 2026 数值优化精度与速度竞赛 |
+| 赛道 | Competition 1-BC-SOPs |
+| 问题类别 | 有界约束单目标优化 |
+| 基准 | 29 个 CEC 2017 实参数值优化问题 |
+| 运行次数 | 每个问题 25 次独立运行 |
+| 预算 | 10000 x D 次函数评价 |
+| 官方来源 | [P-N-Suganthan/2026-CEC](https://github.com/P-N-Suganthan/2026-CEC) |
 
-## ✨ Highlights
+## ✨ 主要特点
 
-- 🏆 Official Champion of the CEC 2026 BC-SOPs track.
-- ⚡ Designed for the competition setting that jointly evaluates accuracy and speed.
-- 📦 Clean final algorithm package with a track-specific `main.py` entry.
-- 🔬 Part of the RDE26 series that won all four CEC 2026 numerical optimization tracks.
+- 🏆 CEC 2026 BC-SOPs 赛道官方冠军。
+- ⚡ 面向同时评价求解精度与运行速度的竞赛设置。
+- 📦 提供清晰的最终算法包，并包含该赛道专用的 `main.py` 入口。
+- 🔬 属于 RDE26 系列；该系列获得 CEC 2026 数值优化四个赛道全部冠军。
 
-## 🧭 RDE26 Series Navigation
+## 🧭 RDE26 系列导航
 
-| Result | Track | Repository |
+| 结果 | 赛道 | 仓库 |
 | --- | --- | --- |
-| 🏆 Champion / Rank 1 (sum/RS: 277418/75) | Competition 1-BC-SOPs | [RDE26-SOP](https://github.com/SichenTao/RDE26-SOP) |
-| 🏆 Champion / Rank 1 (sum/RS: 192754/55) | Competition 2-CSOPs | [RDE26-CSOP](https://github.com/SichenTao/RDE26-CSOP) |
-| 🏆 Champion / Rank 1 (sum/RS: 87261.5/16) | Competition 3-BC-MOPs | [RDE26-MOP](https://github.com/SichenTao/RDE26-MOP) |
-| 🏆 Champion / Rank 1 (sum/RS: 188840/38) | Competition 4-CMOPs | [RDE26-CMOP](https://github.com/SichenTao/RDE26-CMOP) |
+| 🏆 冠军 / 第 1 名 (sum/RS: 277418/75) | Competition 1-BC-SOPs | [RDE26-SOP](https://github.com/SichenTao/RDE26-SOP) |
+| 🏆 冠军 / 第 1 名 (sum/RS: 192754/55) | Competition 2-CSOPs | [RDE26-CSOP](https://github.com/SichenTao/RDE26-CSOP) |
+| 🏆 冠军 / 第 1 名 (sum/RS: 87261.5/16) | Competition 3-BC-MOPs | [RDE26-MOP](https://github.com/SichenTao/RDE26-MOP) |
+| 🏆 冠军 / 第 1 名 (sum/RS: 188840/38) | Competition 4-CMOPs | [RDE26-CMOP](https://github.com/SichenTao/RDE26-CMOP) |
 
-## Team
+## 团队
 
 Sichen Tao, Hanyu Hu, Ruihan Zhao, Qingke Zhang, Yifei Yang, Jian Wang, Masatoshi Kawai, and Hiroyuki Takizawa.
 
-Tohoku University-centered RDE26 research team.
+以东北大学为中心的 RDE26 研究团队。
 
-## Repository Layout
+## 仓库结构
 
-| Path | Description |
+| 路径 | 说明 |
 | --- | --- |
-| `benchmark/` | Public benchmark materials |
-| `code/rde26-sop/main.py` | Track-specific run entry |
-| `code/rde26-sop/src/` | Final algorithm source and required benchmark input data |
+| `benchmark/` | 公开基准材料 |
+| `code/rde26-sop/main.py` | 该赛道专用运行入口 |
+| `code/rde26-sop/src/` | 最终算法源代码和必要的基准输入数据 |
 
-## Requirements
+## 运行需求
 
 - Python 3
-- C++14 compiler
-- No third-party Python package is required
+- C++14 编译器
+- 不需要第三方 Python 包
 
-## Quick Start
+## 快速开始
 
 ```bash
 python3 code/rde26-sop/main.py
 ```
 
-Generated outputs are written under `code/rde26-sop/outputs/`.
+生成结果会写入 `code/rde26-sop/outputs/`。
 
-## 🔗 RDE Research Line
+## 🔗 RDE 研究线
 
-The RDE26 series extends the RDE research line from the IEEE CEC 2024 Runner-Up single-objective entry and the CEC 2025 RDEx Rank 1 U-score series to the 2026 four-track Champion series.
+RDE26 系列将 RDE 研究线从 IEEE CEC 2024 单目标赛道亚军方案和 CEC 2025 RDEx U-score 第 1 系列，推进到 2026 四赛道冠军系列。
 
-### RDE 2024 Entry
+### RDE 2024 参赛方案
 
-| Result | Track | Repository | Paper |
+| 结果 | 赛道 | 仓库 | 论文 |
 | --- | --- | --- | --- |
-| 🥈 Runner-Up Award | IEEE CEC 2024 BC-SOPs | [RDE](https://github.com/SichenTao/IEEE-WCCI-CEC-2024-Competition-RDE) | [arXiv:2404.16280](https://arxiv.org/abs/2404.16280) |
+| 🥈 亚军奖 | IEEE CEC 2024 BC-SOPs | [RDE](https://github.com/SichenTao/IEEE-WCCI-CEC-2024-Competition-RDE) | [arXiv:2404.16280](https://arxiv.org/abs/2404.16280) |
 
-### RDEx 2025 Navigation
+### RDEx 2025 导航
 
-| Result | Track | Repository | Paper |
+| 结果 | 赛道 | 仓库 | 论文 |
 | --- | --- | --- | --- |
-| 🥇 Rank 1 U-score (total: 81229.5) | CEC 2025 BC-SOPs | [RDEx_SOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_SOP) | [arXiv:2603.27089](https://arxiv.org/abs/2603.27089) |
-| 🥇 Rank 1 U-score (total: 53680.5) | CEC 2025 BC-CSOPs | [RDEx_CSOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_CSOP) | [arXiv:2603.27090](https://arxiv.org/abs/2603.27090) |
-| 🥇 Rank 1 U-score (total: 36343.5) | CEC 2025 BC-MOPs | [RDEx_MOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_MOP) | [arXiv:2603.27092](https://arxiv.org/abs/2603.27092) |
-| 🥇 Rank 1 U-score (total: 58456.0) | CEC 2025 BC-CMOPs | [RDEx_CMOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_CMOP) | [arXiv:2604.03708](https://arxiv.org/abs/2604.03708) |
+| 🥇 U-score 第 1 名 (total: 81229.5) | CEC 2025 BC-SOPs | [RDEx_SOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_SOP) | [arXiv:2603.27089](https://arxiv.org/abs/2603.27089) |
+| 🥇 U-score 第 1 名 (total: 53680.5) | CEC 2025 BC-CSOPs | [RDEx_CSOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_CSOP) | [arXiv:2603.27090](https://arxiv.org/abs/2603.27090) |
+| 🥇 U-score 第 1 名 (total: 36343.5) | CEC 2025 BC-MOPs | [RDEx_MOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_MOP) | [arXiv:2603.27092](https://arxiv.org/abs/2603.27092) |
+| 🥇 U-score 第 1 名 (total: 58456.0) | CEC 2025 BC-CMOPs | [RDEx_CMOP](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx-Series/tree/main/RDEx_CMOP) | [arXiv:2604.03708](https://arxiv.org/abs/2604.03708) |
 
-### RDE Research Line Paper Citations
+### RDE 研究线论文引用
 
 - 2024 RDE: Sichen Tao, Ruihan Zhao, Kaiyu Wang, and Shangce Gao, "An Efficient Reconstructed Differential Evolution Variant by Some of the Current State-of-the-art Strategies for Solving Single Objective Bound Constrained Problems," arXiv:2404.16280, 2024. DOI: [10.48550/arXiv.2404.16280](https://doi.org/10.48550/arXiv.2404.16280).
 - 2025 RDEx-SOP: Sichen Tao, Yifei Yang, Ruihan Zhao, Kaiyu Wang, Sicheng Liu, and Shangce Gao, "RDEx-SOP: Exploitation-Biased Reconstructed Differential Evolution for Fixed-Budget Bound-Constrained Single-Objective Optimization," arXiv:2603.27089, 2026. DOI: [10.48550/arXiv.2603.27089](https://doi.org/10.48550/arXiv.2603.27089).
@@ -156,6 +156,6 @@ The RDE26 series extends the RDE research line from the IEEE CEC 2024 Runner-Up 
 
 </details>
 
-## Citation
+## 引用
 
 K. Qiao, X. Ban, P. Chen, K. V. Price, P. N. Suganthan, J. Liang, C. Yue, and G. Wu, "Performance comparison of CEC 2026 competition entries on numerical optimization considering accuracy and speed," IEEE WCCI/CEC 2026 competition slides.
